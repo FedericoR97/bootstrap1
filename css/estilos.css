@@ -1,0 +1,31 @@
+.carouselFede {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  width: 50%;
+  padding: 2rem;
+  gap: 10px;
+}
+footer {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  width: 100% !important;
+  justify-content: space-around;
+  align-content: stretch;
+  background-color: yellow;
+  
+}
+img {
+
+}
+div, img {
+  display: flex;
+ flex-direction: row;
+
+  align-content: space-around;
+
+ 
+
+}

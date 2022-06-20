@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> prueba de boots</title>
+	<link rel="stylesheet"  href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>	
+<body>
+	<h1 class="bg-grey">Mateina Tienda Online</h1>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"> <img src="imagenes/logo.png" width="100px" height="100px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="paginas/categorias.html">Categorias</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Productos destacados
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Termos</a></li>
+            <li><a class="dropdown-item" href="#">Personalizados</a></li>
+            
+            <li><a class="dropdown-item" href="#">Modelos de mates</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Contacto</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<hr>
+	<div class="conteiner">
+		<div class="row">
+			<div class="col">
+				 <p>Mateina nace como un emprendimiento entre 3 amigos que compartian la pasion y cultura matera. Mateina busca promover parte de la cultura matera atraves de ejemplares unicos y de la mas alta calidad, asegurando asi, un 
+				 mate para toda la vida.
+				
+			</div>
+			<div class="col">
+				<h3>Enterate de todas las novedades suscribiendote a nuestro newsletter</h3>
+				<form>
+				<input class="derecha" type="text" name="Nombre completo" placeholder="Nombre completo">
+					<input class="derecha" type="text" name="Email" placeholder="Email">
+					<input class="derecha" type="text" name="Escribi tu consulta" placeholder="Consultanos">
+					<input class="derecha" type="submit" name="Suscribirse">
+
+			</div>
+		</div>	
+	</div>
+
+	<hr>
+	<!--carrousel-->
+<div class="conteiner">
+	<div class="row">
+		<div class="card col" style="width: 18rem;">
+  			<img src="imagenes/fotoindex.jpg" class="card-img-top" height="100%" width="100%">
+  			<div class="card-body">
+    		<h5 class="card-title">Termo Media Manija</h5>
+    		<p class="card-text">Termo Media Manija de acero inoxidable</p>
+    		<a href="#" class="btn btn-primary">Quiero el mio!</a>
+  		</div>
+	</div>
+		<div class="card col" style="width: 18rem;">
+		  	<img src="imagenes/fotoindex1.jpg" class="card-img-top" alt="...">
+		  	<div class="card-body">
+		  	<h5 class="card-title">Personalizados</h5>
+		  	<p class="card-text">Accesorios personalizados ideales para regalos.</p>
+			<a href="#" class="btn btn-primary">Yo quiero</a>
+		</div>
+	</div>
+		<div class="row">
+			<div class="card col" style="width: 18rem;">
+  			<img src="imagenes/fotoindex2.jpg" class="card-img-top" alt="...">
+  			<div class="card-body">
+    		<h5 class="card-title">Combos Uruguayos</h5>
+    		<p class="card-text">Los mejores mates uruguayos con su bombilla</p>
+    		<a href="#" class="btn btn-primary">Dame un amargo che</a>
+ 		 </div>
+	</div>
+		<div class="card col" style="width: 18rem;">
+			<img src="imagenes/accesoriosmateros.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  	<h5 class="card-title">Accesorios materos</h5>
+			    <p class="card-text">Los mejores accesorios para armar tu set matero.</p>
+			    <a href="#" class="btn btn-primary">Quiero todo el set</a>
+			</div>
+		</div>
+	
+</div>
+
+		
+
+
+
+
+<!-- js de bootstrap -->
+
+<script src="js/bootstrap.js"></script>
+	<footer >
+		<div>
+ 			 <div class="row">
+			    <div class="col">
+			     	<h5>Nuestros medios de pago</h5>
+			     	<ul>
+			     		<li class="medio">Tarjeta de credito y debito</li>
+						<li class="medio">Efectivo</li>
+						<li class="medio">Transferencia bancaria</li>
+			     	</ul>
+			    </div>
+			    <div class="col order-5">
+			     	<h3 class="derecha">Newsletter</h3>
+					<h4 class="derecha">Suscribite y enterate todas la novedades</h4>
+
+					<form action="" class="derecha">
+						<input type="text" name="Nombre completo" placeholder="Nombre completo">
+						<input type="text" name="Email" placeholder="Email">
+						<input type="submit" name="Suscribirse">
+					</form>		
+			    </div>			    
+ 			 </div>
+		</div>
+
+	</footer>
+
+
+</body>
+</html>
